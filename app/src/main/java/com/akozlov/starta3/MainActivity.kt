@@ -46,3 +46,5 @@ fun GreetingPreview() {
         Greeting("Android")
     }
 }
+
+// https://startandroid.ru/ru/courses/compose/30-course/compose/672-urok-9-remember.html
