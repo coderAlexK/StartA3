@@ -25,6 +25,7 @@ class MainActivity : ComponentActivity() {
             Column(modifier = Modifier.padding(top = 40.dp)) {
             RecompositionScreen(state, onCounterClick = {state.value++})
             InfoText(if (state.value<3) "More" else "Enough")
+            RememberScreen(counterValue = state.value, onCounterClick = {state.value++})
 
             }
         }
